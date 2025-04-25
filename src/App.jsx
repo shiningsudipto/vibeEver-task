@@ -13,10 +13,14 @@ function App() {
   const isEmailActive = email.length > 0;
   return (
     <div className="lg:p-10 md:p-8 p-4 bg-gray-100 lg:h-screen">
-      <div className="flex lg:flex-row flex-col 2xl:gap-24 xl:gap-14 gap-5 bg-white rounded-[25px] 2xl:py-12 xl:py-8 2xl:px-24 xl:px-14 px-5 py-5 h-full">
+      <div className="flex lg:flex-row flex-col 2xl:gap-24 xl:gap-14 gap-x-5 gap-y-10 bg-white rounded-[25px] 2xl:py-12 xl:py-8 2xl:px-24 xl:px-14 px-5 py-5 h-full">
         <div className="lg:w-[50%] flex flex-col justify-between">
           {/* logo */}
-          <img src={vibeEverLogo} alt="" className="h-8 w-[154px]" />
+          <img
+            src={vibeEverLogo}
+            alt=""
+            className="h-8 w-[154px] lg:mb-0 mb-5"
+          />
           <div>
             <h1 className="text-primary font-extrabold text-5xl">
               SIGN <span className="text-dark">IN</span>
