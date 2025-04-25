@@ -25,6 +25,11 @@
   --breakpoint-2xl: 1440px;
   --breakpoint-3xl: 1920px;
 }
+body {
+  max-width: 1440px;
+  background-color: #f3f4f6;
+  margin: 0 auto;
+}
 
 input:-webkit-autofill {
   transition: background-color 5000s ease-in-out 0s;
